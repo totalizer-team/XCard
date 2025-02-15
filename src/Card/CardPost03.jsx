@@ -108,9 +108,7 @@ export default ({ sx = {}, ...other }) => {
           px: 2,
           typography: 'caption',
           color: 'text.disabled',
-          ...sx,
         }}
-        {...other}
       >
         <Box gap={0.5} display="flex" alignItems="center">
           <ChatIcon sx={{ fontSize: 14 }} />

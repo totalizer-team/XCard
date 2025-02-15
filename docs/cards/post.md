@@ -38,3 +38,20 @@ export default () => {
   );
 };
 ```
+
+## 03
+
+```jsx
+import CardItem from '../../src/Card/CardPost03.jsx';
+
+export default () => {
+  return (
+    <CardItem
+      sx={{
+        width: 300,
+        margin: '0 auto',
+      }}
+    />
+  );
+};
+```
